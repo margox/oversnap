@@ -1,0 +1,40 @@
+{
+  "name": "oversnap",
+  "version": "0.1.1",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js",
+    "bundle-ios": "react-native bundle --dev false --entry-file index.js --bundle-output ios/main.jsbundle  --assets-dest ./ios --platform ios"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "events": "^2.0.0",
+    "react": "16.2.0",
+    "react-native": "^0.54.0",
+    "react-native-blur": "^3.2.2",
+    "react-native-clear-app-cache": "^1.0.3",
+    "react-native-fast-image": "^4.0.14",
+    "react-native-fs": "^2.9.12",
+    "react-native-google-maps": "^1.0.0",
+    "react-native-icloudstore": "^0.9.0",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-maps": "^0.21.0",
+    "react-native-navigation": "^1.1.444",
+    "react-native-shake-event": "^4.0.1",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-swiper": "^1.5.13",
+    "react-native-vector-icons": "^4.5.0",
+    "react-native-view-shot": "^2.3.0"
+  }
+}
